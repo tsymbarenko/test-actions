@@ -1,0 +1,15 @@
+name: schedule_wf
+
+on: 
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  schedule_wf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: schedule_wf
+        run: python -- version
+      - name: node_version
+        run: node -v
+        
