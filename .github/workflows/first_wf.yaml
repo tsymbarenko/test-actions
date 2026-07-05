@@ -1,0 +1,15 @@
+name: first_wf
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  first_wf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first_step
+        run: python --version
+
+
+

@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": [
+            ".github/workflows/*.yml",
+            ".github/workflows/*.yaml"
+        ],
+        "https://www.schemastore.org/github-workflow.json": "file:///Users/kostiantyntsymbarenko/www/test-actions/.github/first_wf.yaml"
+    }
+}
