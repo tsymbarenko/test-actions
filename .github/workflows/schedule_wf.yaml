@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: schedule_wf
-        run: python -- version
+        run: python --version
       - name: node_version
         run: node -v
         
