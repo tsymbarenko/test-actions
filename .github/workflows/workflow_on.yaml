@@ -1,0 +1,16 @@
+name: workflow_on
+
+on:
+    workflow_run: 
+        workflows: [first_wf]
+        types: 
+            - completed
+
+jobs:
+  workflow_on:
+    runs-on: ubuntu-latest
+    steps:
+      - name: schedule_wf
+        run: python --version
+      - name: node_version
+        run: node -v
