@@ -1,0 +1,16 @@
+name: second_wf
+
+on: 
+  workflow_dispatch: 
+    inputs:
+      python version:
+        description: "python version"
+        required: true
+        default: "3.12"
+
+jobs:
+  second_wf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second_wf
+        run: python --version
