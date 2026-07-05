@@ -1,4 +1,5 @@
-name: workflow_on
+run-name: workflow_run
+name: workflow_run
 
 on:
     workflow_run: 
